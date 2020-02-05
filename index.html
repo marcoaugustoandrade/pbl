@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Aprendizagem baseada em projetos</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Aprendizagem baseada em projetos</h1>
+					<p>Prof. Marco Antonio A. de Andrade</p>
+					<a href="mailto:marco.andrade@ifro.edu.br">marco.andrade@ifro.edu.br</a>
+				</section>
+
+				<section data-background-color="#28306a" data-state="faca">
+					<h1>Planejamento</h1>
+				</section>
+
+				<!-- <section>
+					<h2>Lorem ipsum</h2>
+					<div style="display: flex;">
+					
+						<div style="flex: 1;">
+<pre><code class="hlsj javascript" data-trim contenteditable data-line-numbers="1,3">
+function imprimir(){
+  console.log("ok")
+}
+</code></pre>
+						</div>
+
+						<div style="flex: 1;">
+<pre><code class="hlsj javascript" data-trim contenteditable data-line-numbers="2">
+function imprimir(){
+  console.log("ok")
+}
+</code></pre>
+							</div>						
+					</div>
+					<div class="alert-red">Lorem ispum</div>
+				</section>
+
+				<section>
+					<h2>Lorem ipsum</h2>
+<pre><code class="hlsj javascript" data-trim contenteditable data-line-numbers="2">
+function imprimir(){
+  console.log("ok")
+}
+</code></pre>
+					<div class="alert-yellow">Lorem ipsum</div>
+				</section> -->
+
+				<section data-markdown>
+					<script type="text/template">
+						## Planejamento
+						* Quais projetos vão ser desenvolvidos em sala?
+						* Desenvolver uma versão do projeto. <!-- .element: class="fragment" data-fragment-index="1" -->
+						* Desenvolver tutorial. <!-- .element: class="fragment" data-fragment-index="2" -->
+						* Definir cronograma (reservar encontros para trabalho prático). <!-- .element: class="fragment" data-fragment-index="3" -->
+						<!-- <div class="alert-green">Lorem ispum</div> -->
+					</script>
+				</section>
+
+				<section data-background-color="#28306a">
+					<h1>Execução</h1>
+				</section>
+
+				<section data-markdown>
+					## Execução
+					* Apresentar versão desenvolvida ou protótipo.
+					* Desenvolver parte do projeto em sala de aula (disponibilizar tutorial).
+				</section>
+
+				<section data-background-color="#28306a">
+					<h1>Avaliação</h1>
+				</section>
+				
+				<section data-markdown>
+					<script type="text/template">
+						## Avaliação
+						* Dividir a sala em grupos.
+						* Definir novas funcionalidade e/ou melhorias para o trabalho desenvolvido. <!-- .element: class="fragment" data-fragment-index="1" -->
+						* As novas funcionalidades e/ou melhorias são desenvolvidas pelos grupos (em sala de aula). <!-- .element: class="fragment" data-fragment-index="2" -->
+						* Ao final são integradas ao projeto do professor. <!-- .element: class="fragment" data-fragment-index="3" -->
+						* Avaliação 360. <!-- .element: class="fragment" data-fragment-index="4" -->
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				center: true,
+				// slideNumber: true,
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+			Reveal.addEventListener('faca', function() {
+				console.log('Fazendo algo...')
+			}, false );
+		</script>
+	</body>
+</html>
